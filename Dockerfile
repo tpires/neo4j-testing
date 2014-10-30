@@ -9,7 +9,7 @@ maintainer Tiago Pires, tandrepires@gmail.com
 # Find out about the files in neo4j repo ; install neo4j testing community edition
 run wget -O - http://debian.neo4j.org/neotechnology.gpg.key | apt-key add - && \
     echo 'deb http://debian.neo4j.org/repo testing/' > /etc/apt/sources.list.d/neo4j.list && \
-    run apt-get update ; apt-get install neo4j -y
+    apt-get update ; apt-get install neo4j -y
 
 ## add launcher and set execute property
 ## clean sources
